@@ -1,0 +1,11 @@
+0.  Maximum length of a word = 45
+1.  Returns resource usage measures for RUsage_self in our program
+2.  16
+3.  calculate function requires 2 arguments which are pointer to structs so we need to pass address of the struct variables
+4.  It stores each word from the file character by character only if the character is alphabetical or apostrophes and then checking if its is present in  the dictionary. It does the same for all the words in the text file until it encounters a EOF character.
+5.  Here we want to make sure that the words we read consists of either alphabetical characters or apostrophes so we cant rely on fscnf since it will read the word consistin of digits or any other character also.
+6.  We did so  because we dont want the values to which 
+7.  I used hash tables to implement speller.c. Basically it is an array of linked list where each index of array signifies words starting from an alphabet. for ex array[0] contains words from "a" and in each node there is an char array called dict to store the words and a pointre called next which points to the next node 
+8.  It was very slow , it took 14.5 sec to load
+9.  I am pretty happy with the work I did and there are no such bottlenecks just that I have made it as fast as I could.
+10. TOD
